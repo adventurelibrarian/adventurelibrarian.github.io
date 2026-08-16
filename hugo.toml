@@ -1,0 +1,25 @@
+baseURL = 'https://adventurelibrarian.github.io/'
+locale = 'en-us'
+title = 'Adventure Library'
+author = 'Laura Bruckmann'
+
+[params]
+site_logo = "LogoCircle01.png"
+
+[ananke]
+show_recent_posts = false
+
+[menu]
+
+[[menu.main]]
+name = "Contact"
+pageRef = "contact"
+weight = 10
+
+
+[module]
+[[module.imports]]
+disable = false
+ignoreConfig = false
+ignoreImports = false
+path = 'github.com/gohugo-ananke/ananke/v2'
