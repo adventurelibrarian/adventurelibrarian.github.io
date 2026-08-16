@@ -23,3 +23,7 @@ disable = false
 ignoreConfig = false
 ignoreImports = false
 path = 'github.com/gohugo-ananke/ananke/v2'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
